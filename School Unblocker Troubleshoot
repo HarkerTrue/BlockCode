@@ -1,0 +1,59 @@
+uBlock Origin: 1.42.4
+Chromium: 96
+filterset (summary): 
+  network: 3673
+  cosmetic: 0
+  scriptlet: 0
+  html: 0
+listset (total-discarded, last updated): 
+  removed: 
+    user-filters: null
+    easylist: null
+    easyprivacy: null
+    ublock-abuse: null
+    ublock-badware: null
+    ublock-filters: null
+    ublock-privacy: null
+    ublock-quick-fixes: null
+    ublock-unbreak: null
+    urlhaus-1: null
+  default: 
+    plowe-0: 3673-0, 11d.1h.53m
+filterset (user): [array of 1 redacted]
+trustedset: 
+  removed: 
+    about-scheme
+    chrome-extension-scheme
+    chrome-scheme
+    edge-scheme
+    moz-extension-scheme
+    opera-scheme
+    vivaldi-scheme
+    wyciwyg-scheme
+switchRuleset: 
+  added: [array of 1 redacted]
+  removed: 
+    no-large-media: behind-the-scene false
+hostRuleset: 
+  removed: 
+    behind-the-scene * * noop
+    behind-the-scene * image noop
+    behind-the-scene * 3p noop
+    behind-the-scene * inline-script noop
+    behind-the-scene * 1p-script noop
+    behind-the-scene * 3p-script noop
+    behind-the-scene * 3p-frame noop
+modifiedUserSettings: 
+  advancedUserEnabled: true
+  autoUpdate: false
+  collapseBlocked: false
+  contextMenuEnabled: false
+  hyperlinkAuditingDisabled: false
+  largeMediaSize: 1000000
+  parseAllABPHideFilters: false
+  prefetchingDisabled: false
+  showIconBadge: false
+modifiedHiddenSettings: [none]
+supportStats: 
+  allReadyAfter: 11994 ms (selfie)
+  maxAssetCacheWait: 2277 ms
